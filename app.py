@@ -1,5 +1,5 @@
 import tkinter as tk
-
+import random 
 def generate_number():
     while True:
         number = random.randint(0, 999)
