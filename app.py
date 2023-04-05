@@ -1,12 +1,4 @@
 import tkinter as tk
-import random 
-def generate_number():
-    while True:
-        number = random.randint(0, 999)
-        digits = [int(d) for d in str(number)]
-        if len(set(digits)) == len(digits):
-            return number
-code = generate_number()
 
 root = tk.Tk()
 root.title("aria bling")
