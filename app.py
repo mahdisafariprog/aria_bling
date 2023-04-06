@@ -3,7 +3,7 @@ import tkinter as tk
 
 root = tk.Tk()
 root.title("aria bling")
-root.geometry("650x200")
+root.geometry("800x200")
 frame = tk.Frame(root, bg="gray")
 frame.pack(fill=tk.BOTH, expand=True)
 
@@ -17,24 +17,24 @@ name = str(entry_name.get())
 entry_name.pack()
 
 label_3 = tk.Label(frame, text="number :", bg="gray",width=8,height=4, font=("Arial", 10))
-label_3.place(x=200,y=11)
+label_3.place(x=250,y=11)
 
 label_4 = tk.Label(frame, text="", bg="gray",width=14,height=4, font=("Arial", 16))
-label_4.place(x=265,y=38)
+label_4.place(x=310,y=38)
 entry_phone = tk.Entry(master=label_4)
 phone = entry_phone.get()
 entry_phone.pack()
 
 label_5 = tk.Label(frame, text="serch :", bg="gray",width=8,height=4, font=("Arial", 10))
-label_5.place(x=390,y=11)
+label_5.place(x=510,y=11)
 
 label_6 = tk.Label(frame, text="", bg="gray",width=8,height=4, font=("Arial", 10))
-label_6.place(x=450,y=38)
+label_6.place(x=570,y=38)
 entry_serch = tk.Entry(master=label_6)
 entry_serch.pack()   
 
 label_button_1= tk.Label(frame, text="", bg="gray",width=8,height=4, font=("Arial", 10))
-label_button_1.place(x=585,y=36)
+label_button_1.place(x=730,y=36)
 
 
 
